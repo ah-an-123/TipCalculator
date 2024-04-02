@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: gainsboro;
+}
+
+form {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 3rem;
+    border-radius: 10px;
+    gap: 10px;
+    margin: 20px 0px;
+}
+
+form p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 6px 1px;
+}
+
+label {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: 3px;
+}
+
+input {
+    outline: none;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 2px 2px 3px;
+    /* margin: 10px 0px; */
+    margin-bottom: 12px;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    padding: 12px;
+    border-radius: 12px;
+    margin: 12px 0px;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: rgb(19, 19, 238);
+}
+
+#totalBill {
+    font-size: 1.7rem;
+}
